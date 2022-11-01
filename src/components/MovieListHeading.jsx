@@ -1,9 +1,10 @@
 import React from "react";
 
 const MovieListHeading = (props) => {
+  const {title}=props
   return (
     <div className="col">
-      <h1>{props.heading}</h1>
+     <h1>{title}</h1>
     </div>
   );
 };
